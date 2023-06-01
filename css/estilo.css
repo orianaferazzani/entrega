@@ -40,3 +40,23 @@ body{
     text-decoration: none;
     color: aliceblue;
 }
+
+.containerContacto{
+    margin:2% 5%;
+
+}
+footer{
+    padding-bottom: 0%;
+}
+.mapa{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.producto{
+    border: 2px rgba(54, 53, 53, 0.288) solid;
+
+}
