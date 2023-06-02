@@ -24,7 +24,7 @@ img{
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-    width: 500px;
+    width: 400px;
     height: 300px;
 }
 .saludo p {
@@ -45,9 +45,7 @@ body{
     margin:2% 5%;
 
 }
-footer{
-    padding-bottom: 0%;
-}
+
 .mapa{
     border-radius: 20px;
     display: block;
@@ -60,3 +58,45 @@ footer{
     border: 2px rgba(54, 53, 53, 0.288) solid;
 
 }
+.opening-hours {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .opening-hours h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .opening-hours table {
+    margin: 0 auto;
+  }
+  
+  .opening-hours td {
+    padding: 10px;
+  }
+  
+  .opening-hours td:first-child {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .opening-hours td:last-child {
+    text-align: left;
+  }
+  
+  .opening-hours tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .opening-hours tr:last-child {
+    font-weight: bold;
+    color: rgba(215, 9, 30, 0.963);
+  }
+@media (max-width: 768px) {
+    video {
+      width: 100%;
+      text-align: center;
+    }
+  }
